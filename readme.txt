@@ -12,6 +12,8 @@ L'execution du fichier classificationCifar10.py permet d'entrainer un réseau ne
 données CIFAR 10, celle ci doit être présente dans le dossier et ne sera pas téléchargée automatiquement si elle
 est manquante. Cependant ce programme est une base devant être améliorée pour atteindre un résultat convenable.
 
+
+
 Mnist.py :
 
 Après la phase d'entrainement des réseaux neuronaux il est possible de vérifier les résultats obtenus.
@@ -25,4 +27,6 @@ Taper 3 mettra fin à l'execution du programme.
 Installation :
 
 Nécessite l'installation de tensorflow, numpy et matplotlib.
+Pour l'execution de classificationCifar10.py le téléchargement de https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+est requis. les fichiers data_batch_1 à data_batch_5 doivent être placés dans le sous dossier /data.
 
